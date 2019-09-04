@@ -1,6 +1,6 @@
 import java.util.Scanner;
-//got this idea from geeksforgeeks.com
 import java.util.concurrent.ThreadLocalRandom;
+//got this idea from geeksforgeeks.com
 
 
 
@@ -30,6 +30,7 @@ public class main {
         }
         while (incorrectGuesses>0 && !done ) {
             foundFlag=false;
+            //System.out.println(Arrays.toString(visibleLetters));
             for (int i = 0; i < wordChoice.length(); i++) {
                 System.out.print(visibleLetters[i]);
             }
